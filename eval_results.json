@@ -1,0 +1,44 @@
+{
+  "backend": "rules",
+  "n": 22,
+  "category_acc": 0.864,
+  "priority_acc": 0.955,
+  "failures": [
+    {
+      "ticket": "Feature suggestion: dark mode would be great, no rush.",
+      "expected": [
+        "technical",
+        "low"
+      ],
+      "got": [
+        "general",
+        "low"
+      ],
+      "confidence": 0.3
+    },
+    {
+      "ticket": "I can't log in and now I see a charge I don't recognise on my card.",
+      "expected": [
+        "account",
+        "high"
+      ],
+      "got": [
+        "billing",
+        "medium"
+      ],
+      "confidence": 0.67
+    },
+    {
+      "ticket": "Wo ist meine Bestellung? Sie ist nicht angekommen.",
+      "expected": [
+        "shipping",
+        "medium"
+      ],
+      "got": [
+        "general",
+        "medium"
+      ],
+      "confidence": 0.3
+    }
+  ]
+}
